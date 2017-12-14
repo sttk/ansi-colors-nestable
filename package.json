@@ -1,0 +1,40 @@
+{
+  "name": "ansi-colors-nestable",
+  "version": "0.0.0",
+  "description": "Enables nested coloring of texts",
+  "main": "index.js",
+  "files:": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
+    "coveralls": "nyc --reporter=text-lcov npm test | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sttk/ansi-colors-nestable.git"
+  },
+  "keywords": [
+    "color",
+    "ansi",
+    "nest"
+  ],
+  "author": "Takayuki Sato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sttk/ansi-colors-nestable/issues"
+  },
+  "homepage": "https://github.com/sttk/ansi-colors-nestable#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.3.0"
+  },
+  "dependencies": {
+    "ansi-colors": "^1.0.1"
+  }
+}
