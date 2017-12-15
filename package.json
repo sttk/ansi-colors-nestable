@@ -1,6 +1,6 @@
 {
   "name": "ansi-colors-nestable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enables nested coloring of texts",
   "main": "index.js",
   "files": [
